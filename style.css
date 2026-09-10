@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300;400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.meerkats-window{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meerkats-title{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin-left: 60px;
+}
+
+.meerkats-texts{
+    width: 395px;
+    height: 23px;
+    margin-top: 39px;
+    margin-right: 250px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 43px;
+    list-style: none;
+}
+
+.meerkats-text{
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #3D3D3D;
+}
+
+
+.meerkats-logo{
+    width: 50px;
+    height: 61px;
+    margin-top: 25px;
+    margin-right: 408px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.panda-text{
+    width: 23px;
+    height: 11px;
+
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: #000000;
+}
+
+.meerkats-button{
+   width: 216px;
+   height: 41px;
+   margin-top: 30px;
+   border-radius: 50px;
+   
+
+}
+
+.button-text{
+
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.meerkats-images{
+    position: relative;
+    
+    border-width: 1px;
+    opacity: 1;
+}
+
+.meerkats-img{
+    display: block;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.meerkats-images-texts{
+
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.meerkats-images-text-save{
+    position: absolute;
+    
+    width: 1047px;
+    top: 56px;
+    left: 152px;
+
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+    color: #FFFFFF;
+
+}
+
+.meerkats-images-text-defend{
+    position: absolute;
+
+    width: 358px;
+    height: 46px;
+    top: 272px;
+    left: 1002px;
+    opacity: 1;
+
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+    color: #FFFFFF;
+}
+
+.help-button{
+    position: absolute;
+
+    width: 140px;
+    height: 140px;
+    top: 513px;
+    left: 650px;
+
+    border-radius: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #FFFFFF;
+}
+
+.help-button::before{
+    content: "";
+
+    position: absolute;
+    top: -11px;
+    left: -11px;
+
+    width: 160px;
+    height: 160px;
+
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.help-text{
+    width: 93px;
+    height: 25px;
+    top: 670px;
+    left: 673px;
+
+    font-weight: 400;
+    font-size: 22px;
+
+    color: #BF632F;
+}
+
+
+.lion-window{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lion-title{
+    display: flex;   
+
+    margin-left: 60px;
+    margin-top: 128px;
+    gap:161px;  
+      
+}
+
+.lion-img{
+    width: 400px;
+    height: 400px;
+}
+
+.lion-texts{
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    margin-top: 5px;
+    color: #3E3E3E;
+}
+
+.lion-text-one{
+    width: 756px;
+
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin-bottom: 42px;
+
+}
+
+.lion-text-two{
+    width: 700px;
+    height: 138px;
+    
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin-bottom: 66px;
+}
+
+.lion-button{
+    width: 751px;
+    height: 66px;
+    border-radius: 50px;
+    opacity: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #BC5E28;
+    border: 1px solid #FFFFFF;
+
+    
+}
+
+.lion-button-text{
+    width: 475px;
+    height: 34px;
+    opacity: 1;
+
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #171717;
+}
+
+.lion-title-ul{
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+.lion-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.lion-text-ul{
+    width: 254px;
+    height: 57px;
+    opacity: 1;
+
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.lion-text-li{
+    width: 506px;
+    height: 34px;
+    opacity: 1;
+
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.lion-texts-li{
+    width: 567px;
+    height: 34px;
+    opacity: 1;
+
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.dolphin-window{
+    display: flex;
+    margin-top: 141px;
+    margin-left: 60px;
+}
+
+.dolphin-imgages{
+    display: flex;
+    flex-direction: column;
+}
+.dolphin-img{
+    margin-bottom: 93px;
+}
+
+.giraffe-img{
+    margin-left: 267px;
+}
+
+.dolphin-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dolphin-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dolphin-text-one{
+    width: 499px;
+    height: 57px;
+    margin-bottom: 33px;
+
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+
+    color: #3E3E3E;
+}
+
+.dolphin-text-two{
+    width: 496px;
+    height: 48px;
+    margin-bottom: 33px;
+
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #3E3E3E;
+}
+
+.dolphin-item{
+    width: auto;
+    height: auto;
+    border-top: 1px solid #3E3E3E;
+    border-bottom: 1px solid #3E3E3E;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.dolphin-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 25px;
+    margin: 0px;
+    border-bottom: 1px solid #3E3E3E;
+}
+
+.dolphin-row:last-child{
+    border-bottom: none;
+}
+
+.dolphin-texst{
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+    margin-left: -25px;
+
+    color: #3E3E3E;
+    
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.elepane-window{
+    position: relative;
+}
+
+.elepane-img{
+    display: block;
+
+    margin-left: 60px;
+    margin-top: 112px;
+}
+
+.elepane-row{
+    font-family: 'Kulim Park', sans-serif;
+
+    color: #FFFFFF;
+}
+
+.elepane-text-one{
+    position: absolute;
+
+    width: 800px;
+    height: auto;
+    top: 270px;
+    left: 320px;
+
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elepane-text-two{
+    position: absolute;
+
+    width: 870px;
+    height: 92px;
+    top: 347px;
+    left: 320px;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+    text-align: center;
+
+    
+
+}
+
+.elepane-button{
+    position: absolute;
+
+    width: 402px;
+    height: 35px;
+    top: 448px;
+    left: 518px;
+
+    border-radius: 50px;
+    border: 1px solid #E7C9BF;
+    background-color: transparent;
+}
+
+.elepane-button-text{
+    width: 368px;
+    height: auto;
+    top: 448px;
+    left: 546px;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #FFFFFF;
+}
+
+.panda-window{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 122px;
+    margin-left: 60px;
+}
+
+.panda-line{
+    width: 1320px;
+    border-top: 2px solid #3E3E3E;
+    
+}
+
+.panda-title{
+    margin-top: 28px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    color: #3E3E3E;
+    
+}
+
+.panda-text-one{
+    width: 197px;
+    height: 172px;
+    margin-right: 178px;
+    list-style: none;
+
+
+}
+
+.panda-text-two{
+    width: 159px;
+    height: 172px;
+    margin-right: 193px;
+    list-style: none;
+}
+
+.panda-text-three{
+    width: 148px;
+    height: 172px;
+    margin-right: 213px;
+    list-style: none;
+}
+
+.panda-text-four{
+    width: 247px;
+    height: 65px;
+    list-style: none;
+}
+
+.panda-link{
+   margin-bottom: 14px;
+
+   font-family: 'Kulim Park', sans-serif;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 100%;
+   letter-spacing: 0%;
+}
+
+.panda-item-one{
+    margin-bottom: 14px;
+
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+   
+}
+
+.panda-item-two{
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #979797;
+}
+
+.panda-lines{
+    width: 233px;
+    margin-bottom: 2px;
+
+    border-top: 1px solid #979797;
+}
+
+.panda-item-three{
+    margin-bottom: 82px;
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #979797;
+}
+
+.panda-button-one{
+    width: 62px;
+    height: 33px;
+
+    border-radius: 50px;
+
+    border: 1px solid #D9D9D9;
+    background-color: #FFFFFF;
+}
+
+.panda-button-two{
+    width: 117px;
+    height: 33px;
+
+    border-radius: 50px;
+
+    border: 1px solid #D9D9D9;
+    background-color: #FFFFFF;
+}
+
+.panda-button-text{
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #979797;
+}
+
+.panda-logo{
+    display: flex;
+    margin-top: 73px;
+    gap: 190px;
+}
+
+.panda-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panda-images-text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 24px;
+
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.panda-images-one{
+    position: relative;
+}
+.panda-images-two{
+    position: absolute;
+    
+    margin-top: 86px;
+    margin-left: 77px;
+}
+
+.panda-brand{
+    margin-top: 90px;
+}
+
+.panda-address{
+    width: 381px;
+    height: 28px;
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #979797;
+}
+
+.panda-legal{
+    margin-top: 90px;
+}
+
+.panda-protected{
+    width: 460px;
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #979797;
+}
